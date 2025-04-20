@@ -9,11 +9,14 @@ import Teaching from './pages/Teaching'
 import Awards from './pages/Awards'
 import News from './pages/News'
 import Contact from './pages/Contact'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/team' element={<Team />} />
@@ -26,6 +29,7 @@ function App() {
         <Route path='/contact-us' element={<Contact />} />
 
       </Routes>
+      <Footer />
     </>
   )
 }
