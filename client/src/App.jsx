@@ -27,7 +27,6 @@ function App() {
         <Route path='/awards' element={<Awards />} />
         <Route path='/news' element={<News />} />
         <Route path='/contact-us' element={<Contact />} />
-
       </Routes>
       <Footer />
     </>
